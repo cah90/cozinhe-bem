@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-sizing:border-box;
+}
+
+html{
+/*  background-color: #FFCCB3; */
+
+}
+
+body{
+  border: 2px pink solid;
+  width: 62%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FDFDFE
+
+}
+
+.header{
+  border: 1px solid green;
+  display: flex;
+
+
+}
+
+.header h1{
+  color: #DE7A22;
+  font-family: 'Chicle' , cursive;
+  padding-top: 30px;
+  font-size: 4em;
+  letter-spacing: 4px;
+  margin-left: 18px;
+
+
+}
+
+.header img{
+  height: 10%;
+  width: 10%;
+  margin-left: 50px;
+  margin-right: 280px;
+}
+
+.nav{
+  border: 2px purple solid;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.nav ol{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+
+}
+
+.nav li{
+  display: inline-block;
+}
+
+.nav li a{
+  text-decoration: none;
+  color: #739F3D;
+  padding: 30px;
+}
+
+
+.nav li a:hover{
+  color: #BCED80;
+}
+
+.info_menu{
+  border: 2px black solid;
+  display: flex;
+  padding-bottom: 10px;
+}
+
+
+.photo_day{
+  border: 2px red solid;
+  display: inline-block;
+  width: 80%;
+  margin-left: 10%;
+
+
+
+}
+
+.photo_day img{
+  width: 30%;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.strip{
+  border:2px orange solid;
+  text-align: center;
+  margin-top: 20px;
+  padding: 15px;
+}
+
+.big_section{
+  border: 2px grey solid;
+  width: 75%;
+  margin-top: 20px;
+  margin-left: 10px;
+  float: left;
+
+}
+
+h2{
+  text-align: center;
+  font-size: 2em;
+}
+
+
+.recipe_1, .recipe_2{
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.recipe_1{
+  border: 2px black solid;
+}
+
+ul{
+  margin-left: 30px;
+
+}
+
+li{
+  margin-bottom: 15px;
+}
+
+h3{
+  margin-left: 40px;
+
+}
+
+p{
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+
+img{
+  float: right;
+  width: 50%;
+  height: 50%;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+
+.recipe_2{
+  border: 2px blue solid;
+}
+
+.aside{
+  border: 2px red solid;
+  float: right;
+  width: 20%;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.aside h3{
+  text-align: left;
+}
+
+.aside ul{
+
+}
+
+.before_footer {
+  clear: both;
+  border: 1px solid blue;
+  float: left;
+  margin-top: 30px;
+}
+
+.footer{
+  border: 2px yellow solid;
+  clear: both;
+  width: 100%;
+  text-align: right;
+  font-weight: bold;
+  font-size: 0.9em;
+
+}
+
+.footer p{
+  margin-right: 10px;
+}
