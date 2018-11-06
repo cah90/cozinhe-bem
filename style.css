@@ -1,200 +1,192 @@
 * {
   margin: 0;
   padding: 0;
-  border-sizing:border-box;
+  box-sizing:border-box;
 }
 
-html{
-/*  background-color: #FFCCB3; */
-
+body {
+  background-color: #F2EEE2;
+  font-family: "Helvetica Neue", Helvetica, Geneva, Arial, sans-serif;
 }
 
-body{
-  border: 2px pink solid;
-  width: 62%;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #FDFDFE
-
+header{
+  background-color: #FFFF;
 }
 
-.header{
-  border: 1px solid green;
-  display: flex;
-
-
-}
-
-.header h1{
-  color: #DE7A22;
+header h1{
+  color: #FF5992;
   font-family: 'Chicle' , cursive;
-  padding-top: 30px;
-  font-size: 4em;
-  letter-spacing: 4px;
-  margin-left: 18px;
-
-
+  padding-top: 40px;
+  font-size: 6.8rem;
+  letter-spacing: 7px;
+  margin-left: 20%;
+  text-shadow: -4px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-.header img{
-  height: 10%;
-  width: 10%;
-  margin-left: 50px;
-  margin-right: 280px;
+nav{
+  margin-bottom: 2px;
+  padding-bottom: 15px;
+  background-color: #A4D555;
+  border-top: 5px solid #FF5992;
 }
 
-.nav{
-  border: 2px purple solid;
-  padding: 10px;
-  margin-bottom: 10px;
-}
-
-.nav ol{
+nav ol{
   list-style-type: none;
   margin: 0;
   padding: 0;
   text-align: center;
   font-weight: bold;
-  font-size: 1.5em;
-
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
 }
 
-.nav li{
+nav li{
   display: inline-block;
+  padding-top: 10px;
 }
 
-.nav li a{
+nav li a{
   text-decoration: none;
-  color: #739F3D;
+  color: #fff;
   padding: 30px;
+
 }
 
-
-.nav li a:hover{
-  color: #BCED80;
+main{
+  width: 62%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.3rem;
+  padding-top: 10px;
+  background-color: #FFFF;
+  height: 100%;
+  overflow: visible;
 }
-
-.info_menu{
-  border: 2px black solid;
-  display: flex;
-  padding-bottom: 10px;
-}
-
 
 .photo_day{
-  border: 2px red solid;
   display: inline-block;
-  width: 80%;
-  margin-left: 10%;
-
-
-
+  width: 50%;
+  margin-left: 25%;
 }
 
 .photo_day img{
-  width: 30%;
-  height: 400px;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+  height: 100%;
 }
 
 .strip{
-  border:2px orange solid;
+  background-color: #A4D555;
   text-align: center;
   margin-top: 20px;
   padding: 15px;
+  color: #FFFF;
 }
 
-.big_section{
-  border: 2px grey solid;
-  width: 75%;
+.strip h2 {
+  color: #FFF;
+}
+
+.recipe_section{
+  width: 70%;
   margin-top: 20px;
-  margin-left: 10px;
+  margin-left: 2%;
+  margin-right: 2%;
   float: left;
-
 }
 
-h2{
-  text-align: center;
-  font-size: 2em;
-}
-
-
-.recipe_1, .recipe_2{
-  width: 100%;
-  margin-bottom: 30px;
-}
-
-.recipe_1{
-  border: 2px black solid;
-}
-
-ul{
-  margin-left: 30px;
-
-}
-
-li{
-  margin-bottom: 15px;
-}
-
-h3{
-  margin-left: 40px;
-
-}
-
-p{
-  margin-left: 30px;
-  margin-bottom: 15px;
-}
-
-img{
+.recipe_section .recipe img{
   float: right;
   width: 50%;
   height: 50%;
-  margin-right: 10px;
   margin-top: 15px;
 }
 
-
-.recipe_2{
-  border: 2px blue solid;
+.recipe ul {
+  list-style: none;
+  margin-left: 48px;
+  margin-bottom: 15px;
 }
 
-.aside{
-  border: 2px red solid;
-  float: right;
-  width: 20%;
+.recipe h2{
+  font-size: 2em;
+  color: #FF5992;
+}
+
+.recipe p{
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+
+.recipe ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #A4D555; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.hr-style {
+  border: 0;
+  height: 55px;
+  background-image: url(images/type_7.png);
+  background-repeat: no-repeat;
+  background-position: center;
   margin-top: 20px;
-  margin-right: 10px;
+  margin-bottom: 20px;
+  }
+
+aside ul{
+  margin-left: 30px;
+  }
+
+aside{
+  background-color: #F2EEE2;
+  margin-top: 75px;
+  margin-left: 74%;
+  margin-right: 2%;
+  border: 1px solid black;
 }
 
-.aside h3{
-  text-align: left;
-}
+aside h3{
+  padding: 1rem;
+  background-color: #A4D555;
+  color: #FFFF;
+  text-align: center;
+  }
 
-.aside ul{
-
-}
-
-.before_footer {
-  clear: both;
-  border: 1px solid blue;
-  float: left;
-  margin-top: 30px;
-}
-
-.footer{
-  border: 2px yellow solid;
-  clear: both;
+aside ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   width: 100%;
-  text-align: right;
-  font-weight: bold;
-  font-size: 0.9em;
-
 }
 
-.footer p{
+aside li a{
+  display: block;
+  text-decoration: none;
+  color: #000;
+  padding: 10px 16px;
+  border-top: 1px solid black;
+}
+
+aside li a:hover{
+  background-color: #daeebb;
+}
+
+
+footer{
+  background-color: #A4D555;
+  clear: both;
+}
+
+footer p{
   margin-right: 10px;
+  text-align: right;
+  color: #FFFF;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 5px;
 }
