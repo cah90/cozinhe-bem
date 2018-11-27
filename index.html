@@ -2,20 +2,18 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Cozinhe Bem</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Amor de Cozinha</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
     <link href="https://fonts.googleapis.com/css?family=Chicle" rel="stylesheet">
 
   </head>
   <body>
   <header>
-    <div>
-      <h1>Cozinhe Bem</h1>
-    </div>
+      <h1>Amor de Cozinha</h1>
   </header>
 
   <nav>
-    <div>
       <ol>
         <li><a href="doces">Doces</a></li>
         <li><a href="salgados">Salgados</a></li>
@@ -25,22 +23,26 @@
         <li><a href="sobre">Sobre</a></li>
         <li><a href="contato">Contato</a></li>
       </ol>
-    </div>
   </nav>
 
 
   <main>
+    <div class="slideshow">
     <div class="photo_day">
       <img src="images/photo_day.jpg" alt="Foto do Dia">
     </div>
+    <div class="photo_day">
+      <img src="images/pao-de-queijo.jpeg" alt="Pao de Queijo">
+    </div>
+  </div>
 
 
    <div class="strip">
-     <h2>Últimas Receitas Adicionadas</h2>
+     <h2>Receitas Deliciosas</h2>
    </div>
 
 
-    <div class="recipe_section">
+    <div id="content"> <!--Start of the recipe-section-->
       <div class="recipe">
 
         <h2>Hummus</h2>
@@ -49,23 +51,23 @@
         <h3>Ingredientes:</h3>
         <br>
         <ul>
-          <li>1 a 2 limoes espremidos</li>
-          <li>1/3 de xicara de tahini</li>
+          <li>1 a 2 limões espremidos</li>
+          <li>1/3 de xícara de tahini</li>
           <li>1 a 2 dentes de alho</li>
-          <li>sal a gosto</li>
+          <li>Sal a gosto</li>
           <li>3 colheres de sopa de azeite</li>
-          <li>2 xicaras de grao de bico cozido</li>
-          <li>1/4 de xicara de agua</li>
+          <li>2 xícara de grão de bico cozido</li>
+          <li>1/4 de xícara de água</li>
         </ul>
 
         <br>
 
         <h3>Modo de Preparo:</h3>
         <br>
-        <p>Deve-se colocar primeiramente os ingredientes liquidos em um processor,
-          seguidos pelos ingredientes solidos.</p>
-        <p>Bata ate obter uma consistencia pastosa. Adicione um pouco de agua, se preciso.</p>
-        <p>Coloque em um prato e regue com azeite. Aproveite!</p>
+        <p>Coloque todos os ingredientes líquidos em um processor,
+        em seguida, os sólidos. Bata até obter uma consistência pastosa.
+        Caso o hummus esteja muito grosso, adicione a água e continue batendo.
+        Coloque em um recipiente e regue com azeite.</p>
 
       </div> <!-- end div class="recipe" -->
 
@@ -73,32 +75,33 @@
       <br>
 
       <div class="recipe">
-        <h2>Torta Facil de Abobrinha</h2>
+        <h2>Torta de Abobrinha</h2>
+        <img src="images/torta-abobrinha.jpg" alt="Torta de Abobrinha">
 
         <br>
         <h3>Ingredientes:</h3>
         <br>
         <ul>
           <li>1 abobrinha cortada em cubos</li>
-          <li>1 cebola bem picadinha</li>
+          <li>1 cebola picada</li>
           <li>1 tomate sem sementes picado</li>
           <li>Salsinha picada</li>
-          <li>1 xicara de queijo ralado de sua preferencia/li>
+          <li>1 xícara de queijo ralado de sua preferência</li>
           <li>Sal e azeite a gosto</li>
           <li>3 ovos batidos</li>
           <li>1/4 de farinha de trigo</li>
-          <li>1 colher de sopa de fermento biologico em po</li>
+          <li>1 colher de sopa de fermento biológico em pó</li>
         </ul>
 
         <br>
 
         <h3>Modo de Preparo:</h3>
         <br>
-        <p>Coloque a abobrinha, salsinha, cebola, tomate e queijo em uma tijela,
-        em seguida coloque o sal e regue com um pouco de azeite.</p>
-        <p>Adicione o queijo, a farinha, o fermento e o ovo batido. Misture.</p>
-        <p>Tranfira o conteudo para uma assadeira e leve ao forno por aproximadamente 20 minutos, 200 graus.</p>
-        <p>Quando estiver douradinho, pode retirar e se deliciar.</p>
+        <p>Misture a abobrinha, a salsinha, a cebola, o tomate e o queijo em uma tijela,
+        adicione sal e regue com um pouco de azeite.
+        Em seguida, coloque o queijo, a farinha, o fermento e o ovo batido e misture bem.
+        Tranfira o conteúdo para uma assadeira e leve ao forno pré-aquecido a 200 graus por
+        aproximadamente 20 minutos.</p>
       </div> <!-- ends div class="recipe" -->
 
       <hr class="hr-style">
@@ -111,9 +114,9 @@
           <aside>
             <h3>Veja outras Receitas</h3>
             <ul>
-              <li><a href="#">Pão de Queijo</a></li>
-              <li><a href="#">Torta de Frango</a></li>
-              <li><a href="#">Esfiha</a></li>
+              <li><a href="pao-de-queijo.html">Pão de Queijo</a></li>
+              <li><a href="torta-de-frango.html">Torta de Frango</a></li>
+              <li><a href="creme-de-espinafre.html">Creme de Espinafre</a></li>
             </ul>
           </aside>
 

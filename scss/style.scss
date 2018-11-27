@@ -63,15 +63,24 @@ main{
   overflow: visible;
 }
 
-.photo_day{
-  display: inline-block;
-  width: 50%;
-  margin-left: 25%;
+.slideshow{
+  margin: 45px auto;
+  position: relative;
+  width: 600px;
+  height: 350px;
+  padding: 5px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+.slideshow > div{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
 }
 
 .photo_day img{
-  margin-left: auto;
-  margin-right: auto;
   width: 100%;
   height: 100%;
 }
@@ -107,6 +116,7 @@ main{
   list-style: none;
   margin-left: 48px;
   margin-bottom: 15px;
+  line-height: 2rem;
 }
 
 .recipe h2{

@@ -1,0 +1,12 @@
+.hr-style {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  clear:left;
+}
+
+
+#content {
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+}

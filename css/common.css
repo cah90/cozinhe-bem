@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  }
+
+html {
+  font-size: 100%;
+  min-width: 1100px;
+  background-color: #F2EEE2;
+  font-family: "Helvetica Neue", Helvetica, Geneva, Arial, sans-serif;
+}
+
+
+header {
+  background-color: #FFFF; }
+
+header h1 {
+  color: #FF5992;
+  font-family: 'Chicle' , cursive;
+  padding-top: 3%;
+  font-size: 6.8rem;
+  letter-spacing: 0.48rem;
+  margin-left: 15%;
+  text-shadow: -4px 0 black, 0 1px black, 1px 0 black, 0 -1px black; }
+
+p {
+  line-height: 2rem;}
+
+nav {
+  margin-bottom: 0.1%;
+  padding-bottom: 1%;
+  background-color: #A4D555;
+  border-top: 5px solid #FF5992;
+}
+
+nav ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem; }
+
+nav li {
+  display: inline-block;
+  padding-top: 1%; }
+
+nav li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 30px;}
+
+nav li a:hover{
+  color: #daeebb;
+}
+
+main {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.3%;
+  padding-top: 1%;
+  background-color: #FFFF;
+}
+
+#content {
+  width: 70%;
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  float: left;
+}
+
+.recipe img {
+  width: 30%;
+  height: 50%;
+  margin-right: 15%;
+  margin-top: 3%;
+  margin-bottom: 3%;}
+
+.recipe ul {
+  list-style: none;
+  margin-left: 4.8%;
+  margin-bottom: 1.5%;
+  line-height: 2rem; }
+
+.recipe h2 {
+  font-size: 2rem;
+  color: #FF5992; }
+
+.recipe p {
+  margin-left: 3%;
+  margin-bottom: 1.5%; }
+
+.recipe ul li::before {
+  content: "\2022";
+  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #A4D555;
+  /* Change the color */
+  font-weight: bold;
+  /* If you want it to be bold */
+  display: inline-block;
+  /* Needed to add space between the bullet and the text */
+  width: 1rem;
+  /* Also needed for space (tweak if needed) */
+  margin-left: -1rem;
+  /* Also needed for space (tweak if needed) */ }
+
+.hr-style {
+  border: 0;
+  height: 55px;
+  background-image: url(../images/hr.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 2%;
+  margin-bottom: 2%; }
+
+footer {
+  background-color: #A4D555;
+  clear: both; }
+
+footer p {
+  margin-right: 1%;
+  text-align: right;
+  color: #FFFF;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.5%; }
