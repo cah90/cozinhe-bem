@@ -10,25 +10,28 @@ html {
   font-family: "Helvetica Neue", Helvetica, Geneva, Arial, sans-serif;
 }
 
-
 header {
   background-color: #FFFF; }
 
 header h1 {
-  color: #FF5992;
   font-family: 'Chicle' , cursive;
-  padding-top: 3%;
+  padding-top: 1%;
   font-size: 6.8rem;
-  letter-spacing: 0.48rem;
+  letter-spacing: 0.40rem;
   margin-left: 15%;
   text-shadow: -4px 0 black, 0 1px black, 1px 0 black, 0 -1px black; }
+
+header h1 a {
+  text-decoration: none;
+  list-style-type: none;
+  color: #FF5992;
+}
 
 p {
   line-height: 2rem;}
 
 nav {
   margin-bottom: 0.1%;
-  padding-bottom: 1%;
   background-color: #A4D555;
   border-top: 5px solid #FF5992;
 }
@@ -40,16 +43,19 @@ nav ol {
   text-align: center;
   font-weight: bold;
   font-size: 1.4rem;
-  letter-spacing: 0.1rem; }
+  letter-spacing: 0.1rem;
+}
 
 nav li {
   display: inline-block;
-  padding-top: 1%; }
+  padding: 0.5%;
+}
 
 nav li a {
   text-decoration: none;
   color: #fff;
-  padding: 30px;}
+  padding-right: 30px;
+}
 
 nav li a:hover{
   color: #daeebb;

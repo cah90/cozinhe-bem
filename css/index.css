@@ -1,5 +1,6 @@
 .slideshow {
-  margin: 4.5% auto;
+  margin: auto;
+  margin-bottom: 2%;
   position: relative;
   width: 600px;
   height: 350px;
@@ -8,10 +9,10 @@
 
 .slideshow > div {
   position: absolute;
-  top: 10px;
-  left: 10px;
-  right: 10px;
-  bottom: 10px; }
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px; }
 
 .photo_day img {
   width: 100%;
@@ -20,22 +21,21 @@
 .strip {
   background-color: #A4D555;
   text-align: center;
-  margin-top: 2%;
-  padding: 1.5%;
+  padding: 0.8%;
   color: #FFFF; }
 
 .strip h2 {
   color: #FFF; }
 
-aside ul {
-  margin-left: 3%; }
-
 aside {
   background-color: #F2EEE2;
-  margin-top: 6%;
+  margin-top: 3%;
   margin-left: 74%;
   margin-right: 2%;
   border: 1px solid black; }
+
+aside ul {
+  margin-left: 3%; }
 
 aside h3 {
   padding: 1rem;
