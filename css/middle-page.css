@@ -1,0 +1,45 @@
+.header-content {
+  border: 2px solid green;
+  background-color: #bfe188;
+  color: #FFFF;
+  text-align: center;
+  font-size: 2rem;
+  padding: 0.1%;
+  margin-bottom: 5%;
+}
+
+.receitas-content img {
+  width: 20%;
+  height: 30%;
+  margin-right: 10px;
+}
+
+.receitas-content {
+  width: 60%;
+  padding: 15px;
+}
+
+.receitas-content h3 {
+  color: green;
+}
+
+.receitas-content {
+  border: 2px solid blue;
+  display: flex;
+  margin-left: 5%;
+  margin-bottom: 2%;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #000;
+  border: 1px solid #9a9a9a;
+  border-radius: 15%;
+  padding: 1%;
+  font-weight: bold;
+  background-color: #F2EEE2;
+}
+
+.btn {
+  margin-top: 50px;
+}
